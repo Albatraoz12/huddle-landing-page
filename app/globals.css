@@ -9,6 +9,7 @@ body {
   background-color: var(--violet);
   background-repeat: no-repeat;
   height: 100vh;
+  width: 100%;
 }
 
 .navbar {
@@ -21,7 +22,9 @@ main {
   margin: 2rem auto;
 }
 
-figure {
-  border: 1px solid black;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 2.5rem;
 }
