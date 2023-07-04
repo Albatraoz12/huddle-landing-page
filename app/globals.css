@@ -100,3 +100,35 @@ footer {
 .icon-container .icon:hover {
   color: var(--soft-magenta);
 }
+
+@media screen and (max-width: 1500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
+  }
+
+  figure img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+
+  .text-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 1.5rem;
+    gap: 1.5rem;
+    margin: 3rem auto;
+  }
+
+  footer {
+    justify-content: center;
+    width: 100%;
+  }
+}
