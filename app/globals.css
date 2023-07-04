@@ -59,7 +59,8 @@ figure img {
   display: grid;
   grid-template-columns: 55% 1fr;
   width: 90vw;
-  margin: 6.2rem auto;
+  margin-top: 6.2rem;
+  margin-inline: auto;
 }
 
 .text-container {
@@ -82,4 +83,20 @@ figure img {
 .btn:hover {
   background-color: var(--soft-magenta);
   color: var(--white);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: flex-end;
+  width: 90vw;
+}
+
+.icon {
+  color: var(--white);
+}
+
+.icon-container .icon:hover {
+  color: var(--soft-magenta);
 }
