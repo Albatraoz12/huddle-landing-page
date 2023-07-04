@@ -7,14 +7,14 @@ export default function Home() {
         <figure>
           <img src='/images/illustration-mockups.svg' alt='testing' />
         </figure>
-        <div>
+        <div className='text-container'>
           <h1>Build The Community Your Fans Will Love</h1>
           <p>
             Huddle re-imagines the way we build communities. You have a voice,
             but so does your audience. Create connections with your users as you
-            engage in genuine discussion. Register
+            engage in genuine discussion.
           </p>
-          <button>Register</button>
+          <button className='btn'>Register</button>
         </div>
       </section>
     </main>
